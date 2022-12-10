@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://revolt.my.id';
+var url = 'https://api.sekha.me/';
 try {
-if(url == 'https://revolt.my.id') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://api.sekha.me/') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
